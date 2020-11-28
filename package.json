@@ -9,6 +9,7 @@
   "main": "./out/main",
   "private": true,
   "scripts": {
+    "push":"git add . && git commit -m 'auto-commit' && git push",
     "test": "mocha",
     "test-browser": "node test/unit/browser/index.js",
     "preinstall": "node build/npm/preinstall.js",
